@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        String userName,password;
+        System.out.print("Kullanici Adinizi Giriniz:");
+        userName = input.nextLine();
+        System.out.print("Sifrenizi Giriniz:");
+        password = input.nextLine();
+
+        if (userName.equals("Cemal") && password.equals("java123"))
+        {
+            System.out.println("Giriş Yaptiniz");
+        }
+        else {
+            System.out.println("Hatali Giris Yaptiniz");
+        }
+
+
+
+    }
+}
